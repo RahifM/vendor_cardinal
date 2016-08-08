@@ -83,3 +83,12 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/du/overlay/common
 
 # Google sounds
 include vendor/du/google/GoogleAudio.mk
+
+# Custom off-mode charger
+ifneq ($(WITH_CM_CHARGER),false)
+PRODUCT_PACKAGES += \
+    charger_res_images \
+    cm_charger_res_images \
+    font_log.png \
+    libhealthd.cm
+endif
