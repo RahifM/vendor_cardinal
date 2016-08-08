@@ -251,3 +251,12 @@ PRODUCT_COPY_FILES += \
     vendor/cardinal/prebuilt/common/bin/backuptool_ab.functions:system/bin/backuptool_ab.functions \
     vendor/cardinal/prebuilt/common/bin/backuptool_postinstall.sh:system/bin/backuptool_postinstall.sh
 endif
+
+# Custom off-mode charger
+ifneq ($(WITH_CM_CHARGER),false)
+PRODUCT_PACKAGES += \
+    charger_res_images \
+    cm_charger_res_images \
+    font_log.png \
+    libhealthd.cm
+endif
