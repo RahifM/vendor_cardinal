@@ -6,11 +6,8 @@ PRODUCT_PACKAGES += \
     Chromium \
     OmniJaws \
     OmniStyle \
-    QuickSearchBox \
+    messaging \
     OmniClockOSS \
-    MusicFX \
-    audio_effects.conf \
-    libcyanogen-dsp \
     Phonograph \
     Turbo \
     MatLog \

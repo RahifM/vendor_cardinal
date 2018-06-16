@@ -22,7 +22,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- Should "4G" be shown instead of "LTE" when the network is NETWORK_TYPE_LTE? -->
-    <bool name="config_show4GForLTE">false</bool>
+    <bool name="config_show4GForLTE">true</bool>
 
     <!-- Control whether status bar should distinguish HSPA data icon form UMTS
     data icon on devices -->
