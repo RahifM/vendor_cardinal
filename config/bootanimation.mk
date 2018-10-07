@@ -14,6 +14,10 @@ ifneq ($(filter dumpling,$(du_device)),)
 scr_resolution := 1080x2160
 endif
 
+ifneq ($(filter wt88047,$(du_device)),)
+scr_resolution := 720x1280
+endif
+
 ifneq ($(filter tenderloin,$(du_device)),)
 scr_resolution := 768x1024
 endif
