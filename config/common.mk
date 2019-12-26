@@ -35,9 +35,9 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     net.tethering.noprovisioning=true
 
 # enable ADB authentication if not on eng build
-ifneq ($(TARGET_BUILD_VARIANT),eng)
-PRODUCT_SYSTEM_DEFAULT_PROPERTIES  += ro.adb.secure=1
-endif
+#ifneq ($(TARGET_BUILD_VARIANT),eng)
+#PRODUCT_SYSTEM_DEFAULT_PROPERTIES  += ro.adb.secure=1
+#endif
 
 # Enforce privapp-permissions whitelist
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
